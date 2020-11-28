@@ -4,8 +4,8 @@ html, body {
 }
 .jumbotron {
     text-align: center;
-    padding-top: 4rem;
-    padding-bottom: 13rem;
+    padding-top: 14rem;
+    padding-bottom: 18rem;
     text-shadow: 2px 2px #000000;
   }
   .img-vision{
@@ -64,7 +64,7 @@ footer a{
   }
   .custom-shape-divider-bottom-1606505643 {
     position: absolute;
-    bottom: 30%;
+    bottom: 0;
     left: 0;
     width: 150%;
     overflow: hidden;
