@@ -15,7 +15,9 @@ html, body {
       margin-top: 6% !important;
       background-color: #2f2a660a !important;
   }
-
+.about{
+    background-color: #2f2a660a !important;
+}
   .vision{
     margin-top: 6% !important;
 }
@@ -26,6 +28,9 @@ html, body {
   .text-main{
       color: #882f2f;
   }
+  .bg-myred{
+    background-color: #882f2f !important;
+}
   .lead span {
     color: orange;
     font-weight: bold;
