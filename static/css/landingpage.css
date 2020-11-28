@@ -31,11 +31,19 @@ html, body {
   .bg-myred{
     background-color: #882f2f !important;
 }
+footer a{
+    color: white;
+}
+.whyimg{
+    width: 20% !important;
+}
   .lead span {
     color: orange;
     font-weight: bold;
   }
-  
+  .bg-myblue{
+      background-color: #3f3d56 ;
+  }
   .bg-cover {
     background-size: cover;
     color: white;
