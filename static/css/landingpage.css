@@ -11,6 +11,28 @@ html, body {
   .img-vision{
       width: 100% !important;
   }
+  
+  .img-customer1{
+	width: 70% !important;
+}
+.img-customer4{
+	width: 60% !important;
+}
+.img-customer5{
+	width: 55% !important;
+}
+.img-customer6{
+	width: 60% !important;
+}
+.card-serv{
+	border-radius: 25px;
+    box-shadow: 0 10px 20px -5px #000000ce;
+}
+.list-office{
+	
+	border-radius: 25px;
+    box-shadow: 0 10px 20px -5px #000000ce;
+}
   .mission{
       margin-top: 6% !important;
       background-color: #2f2a660a !important;
