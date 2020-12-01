@@ -10,7 +10,14 @@
     <script src="https://kit.fontawesome.com/f563df3bc2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="{% static 'css/landingpage.css' %}">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static '/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static '/css/owl.theme.default.min.css' %}">
 
+    <style>
+        .vision, .mission, .values, .about, .why-us, .costumers, .services, .team{
+	margin-bottom: 10% !important;
+}
+    </style>
 </head>
 
 <body>
@@ -57,7 +64,7 @@
     </nav>
 
     <div class="jumbotron jumbotron-fluid bg-primary text-light bg-cover"
-        style="background-image: url('static/images/tallinn_by_kuldarleement_dbni1p9-pre.png'); position: relative !important;">
+        style="background-image: url('static/images/photo-1449247666642-264389f5f5b1.jfif'); position: relative !important;">
         <div class="overlay"></div>
         <div class="container">
             <h1 class="display-1 mb-1">Route Visor</h1>
@@ -80,6 +87,7 @@
 
     </div>
 
+    
     <div class="vision  my-4 pt-4" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100" >
 
         <h1 class="display-1 text-center heading"><u>Vision</u></h1>
@@ -90,7 +98,7 @@
             </div>
             <div class="col-md-6 mt-4 pt-4">
 
-                <h1 class="display-4">
+                <h1 class="display-4 vtext">
                     THRIVING
                     <br> TO BECOME
                     <br>THE LEADING SERVICE PROVIDER
@@ -104,11 +112,11 @@
 
     <div class="mission  my-4 pt-4" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100" >
 
-        <h1 class="display-1 text-center heading" >Mission</h1>
+        <h1 class="display-1 myh1 text-center heading" >Mission</h1>
         <div class="row">
             <div class="col-md-6 mt-4 pt-4 text-right">
 
-                <h1>
+                <h1 class="mtext">
                     WE’RE ON A MISSION
                     <br> TO MAKE SHIPPING
                     <br> A DELIGHTFUL EXPERIENCE
@@ -116,7 +124,7 @@
                     <br> INDIVIDUALS AND BUSINESSES
                     <br>
                 </h1>
-                <div class="container text-center m-4 p-4 text-main">
+                <div class="container text-center m-4 p-4 text-main mtext2">
                     <h5>
                         ROUTE VISOR IS REVOLUTIONIZING THE WORD OF
                         SHIPMENT AND DELIVERY IN MIDDLE EAST WITH THE CUTTING EDGE TECHNOLOGY.
@@ -267,7 +275,7 @@
             </div>
             <div class="col-md-6 mt-4 pt-4 text-center">
 
-                <h3>
+                <h3 class="atext">
                     WHILE YOU ARE FOCUSING ON BEING MORE
                     EFFICIENT IN YOUR CORE BUSINESS ACTIVITY
                     YOU CAN LEAVE THE REST TO US WE WILL
@@ -279,7 +287,7 @@
                     MADE DELIVERY SOLUTIONS.
                 </h3>
                 <div class="container  m-4 p-4 text-main">
-                    <h2>
+                    <h2 class="atext2">
                         OUR VERSATILE TEAM MAKES SURE THAT OUR
                         VALUED CUSTOMERS HAVE SOLUTIONS TO
                         THEIR BUSINESS NEEDS, WANTS AND GOALS.</h2>
@@ -301,7 +309,7 @@
             <div class="col-md-12  text-center">
                 <div class="container my-4 py-4 text-center">
 
-                    <h2 class=" text-main">OUR PICK UP AND DELIVERY COURIER APP MAKES YOUR LIFE EASIER; WITH A
+                    <h2 class="wtext text-main">OUR PICK UP AND DELIVERY COURIER APP MAKES YOUR LIFE EASIER; WITH A
                         FEW TAPS YOU CAN GET US TO RUN ERRANDS FIR YOU SO YOU’LL GET MORE
                         TIME IN YOUR DAY TO DO THE THINGS YOU ENJOY DOING. </h2>
                     <h1>WE SELECT THE BEST OF THE BEST RIDERS ON YOUR BEHALF
@@ -322,7 +330,7 @@
     <div class="customers  my-4 pt-4" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
 
         <h1 class="display-3 text-center heading">EXITING CUSTOMERS</h1>
-        <div class="container p-4">
+        <div class="container p-4 teamh">
             <div class="row ml-4 pl-4">
                 <div class="col-md-4 my-4">
                     <img class="img-customer1" src="{% static 'images/icons/11.png' %}" alt="" srcset="">
@@ -372,7 +380,7 @@
 
         <h1 class="display-1 text-center heading">Services</h1>
         <div class="container">
-            <div class="row">
+            <div class="row teamh">
                 <div class="col-md-2">
                 </div>
                 <div class="col-md-4 m-4">
@@ -425,11 +433,11 @@
 
     <div class="team  my-4 pt-4" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
 
-        <h1 class="display-1 text-center heading">ROUTE VISOR TEAM</h1>
+        <h1 class="display-1 text-center heading teamh">ROUTE VISOR TEAM</h1>
         <div class="row">
             <div class="col-md-6 mt-4 pt-4 text-right">
 
-                <div class="container text-center m-4 p-4 text-main">
+                <div class="container text-center m-4 p-4 text-main teamh">
                     
                     <ul class="list-group list-group-flush mx-4 px-4 text-center text-main list-office">
                         <li class="list-group-item">
@@ -544,6 +552,7 @@
                         Deria U.A.E.</p>
                         <p style="line-height: 1.7rem">
                             <h3 class="text-main" ><b>Contact Number:</b></h3>
+                            +971 58 106 2962,  
                             +971 56 934 7025,
                             +971 50 330 5442</p>
                 </div>
@@ -661,6 +670,8 @@
         });
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+  <script src="{% static 'js/owl.carousel.min.js' %}"></script>
     
   <script>
     AOS.init();
