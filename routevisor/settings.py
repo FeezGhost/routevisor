@@ -25,7 +25,7 @@ SECRET_KEY = '0xm8!g43wj04lu02g&2*q$)6_evei@1v)$(5p4qbtmccb22aqn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['routevisor.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
