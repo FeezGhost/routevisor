@@ -3,15 +3,16 @@ body {
 	max-width: 100%;
 	overflow-x: hidden;
 }
-
 .jumbotron {
 	text-align: center;
-	padding-top: 14rem;
-	padding-bottom: 18rem;
+	padding-top: 16rem;
+	padding-bottom: 20rem;
 	text-shadow: 2px 2px #000000;
 }
 
-
+.brand-pic{
+	width: 20%;
+}
 
 .img-vision {
 	width: 100% !important;
@@ -309,8 +310,13 @@ i {
 
 @media (max-width: 900px) {
 	.jumbotron {
-		padding-top: 16rem;
-		padding-bottom: 22rem;
+		padding-top: 19rem;
+		padding-bottom: 24rem;
+	}
+	.mynav{
+		width: 67% !important;
+		position: fixed !important;
+		top: 0;
 	}
 	.vtext{
 		font-size: 33px !important;
