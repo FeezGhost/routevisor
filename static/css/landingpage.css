@@ -7,11 +7,20 @@ body {
 	max-width: 100%;
 	overflow-x: hidden;
 }
+
 .jumbotron {
 	text-align: center;
 	padding-top: 16rem;
 	padding-bottom: 20rem;
 	text-shadow: 2px 2px #000000;
+}
+a:link{
+
+	text-decoration: none;
+}
+a:hover{
+	
+	color: #cc8282  !important;
 }
 .img1{
 	margin-left: 6px !important;
