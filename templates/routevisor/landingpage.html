@@ -15,15 +15,22 @@
     <link rel="stylesheet" href="{% static '/css/owl.theme.default.min.css' %}">
 
     <style>
-        .vision, .mission, .values, .about, .why-us, .costumers, .services, .team{
-	margin-bottom: 10% !important;
-}
+        .vision,
+        .mission,
+        .values,
+        .about,
+        .why-us,
+        .costumers,
+        .services,
+        .team {
+            margin-bottom: 10% !important;
+        }
     </style>
 </head>
 
 <body>
 
-    <nav  class="navbar navbar-expand-lg navbar-mainbg fixed-top mynav">
+    <nav class="navbar navbar-expand-lg navbar-mainbg fixed-top mynav" role="navigation">
         <a class="navbar-brand navbar-logo" href="#">
             <img class="brand-pic" src="{% static 'images/icons/pngg.png' %}" alt="" srcset=""> ROUTE VISOR</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -89,16 +96,18 @@
 
     </div>
 
-    
-    <div id="vision" class="vision  my-4 pt-4" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100" >
 
-        <h1 class="display-1 text-center heading"><u>Vision</u></h1>
+    <div id="vision" class="vision  my-4 pt-4">
+
+        <h1 class="display-1 text-center heading" data-aos="fade-up" data-aos-duration="850" data-aos-delay="100">
+            <u>Vision</u></h1>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-right" data-aos-duration="900" data-aos-delay="200">
 
-                <img class="img-vision" src="{% static 'images/undraw_creative_thinking_b3bc.svg' %}" alt="" srcset="">
+                <img class="img-vision img1" src="{% static 'images/undraw_creative_thinking_b3bc.svg' %}" alt=""
+                    srcset="">
             </div>
-            <div class="col-md-6 mt-4 pt-4">
+            <div class="col-md-6 mt-4 pt-4" data-aos="fade-left" data-aos-duration="900" data-aos-delay="300">
 
                 <h1 class="display-4 vtext">
                     THRIVING
@@ -112,11 +121,13 @@
         </div>
     </div>
 
-    <div id="mission" class="mission  my-4 pt-4" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100" >
+    <div id="mission" class="mission  my-4 pt-4">
 
-        <h1 class="display-1 myh1 text-center heading" >Mission</h1>
+        <h1 class="display-1 myh1 text-center heading" data-aos="fade-up" data-aos-duration="750" data-aos-delay="100">
+            Mission</h1>
         <div class="row">
-            <div class="col-md-6 mt-4 pt-4 text-right">
+            <div class="col-md-6 mt-4 pt-4 text-right" data-aos="fade-right" data-aos-duration="850"
+                data-aos-delay="200">
 
                 <h1 class="mtext">
                     WE’RE ON A MISSION
@@ -126,7 +137,8 @@
                     <br> INDIVIDUALS AND BUSINESSES
                     <br>
                 </h1>
-                <div class="container text-center m-4 p-4 text-main mtext2">
+                <div class="container text-center m-4 p-4 text-main mtext2" data-aos="zoom-in" data-aos-duration="1050"
+                    data-aos-delay="400">
                     <h5>
                         ROUTE VISOR IS REVOLUTIONIZING THE WORD OF
                         SHIPMENT AND DELIVERY IN MIDDLE EAST WITH THE CUTTING EDGE TECHNOLOGY.
@@ -135,18 +147,21 @@
             </div>
             <div class="col-md-6">
 
-                <img class="img-vision" src="{% static 'images/undraw_shared_goals_3d12 (1).svg' %}" alt="" srcset="">
+                <img class="img-vision img2" src="{% static 'images/undraw_shared_goals_3d12 (1).svg' %}" alt=""
+                    srcset="" data-aos="fade-left" data-aos-duration="950" data-aos-delay="300">
             </div>
         </div>
     </div>
 
-    <div id="values" class="values  my-4 pt-4" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
+    <div id="values" class="values  my-4 pt-4">
 
-        <h1 class="display-3 text-center heading"> <u>CORE VALUES</u></h1>
-        <h1 class=" text-center heading"><b>AT</b> </h1>
-        <h1 class="display-1 text-center heading"> <u>ROUTE VISOR</u></h1>
+        <h1 class="display-3 text-center heading" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
+            <u>CORE VALUES</u></h1>
+        <h1 class=" text-center heading" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200"><b>AT</b> </h1>
+        <h1 class="display-1 text-center heading" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
+            <u>ROUTE VISOR</u></h1>
 
-        <div class="row mx-4">
+        <div class="row mx-4" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="400">
             <div class="col-md-2 mt-4 pt-4">
                 <div class="card text-center">
                     <h1 class="card-header  bg-myred text-light" style="background-color: #882f2f;"> <b>V</b> </h1>
@@ -267,17 +282,18 @@
         </div>
     </div>
 
-    <div id="about" class="about  my-4 pt-4" style="background-color: #2f2a660a;" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
+    <div id="about" class="about  my-4 pt-4" style="background-color: #2f2a660a;">
 
-        <h1 class="display-1 text-center heading">About Us</h1>
+        <h1 class="display-1 text-center heading" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">About
+            Us</h1>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-roght" data-aos-duration="800" data-aos-delay="200">
 
                 <img class="img-vision" src="{% static 'images/undraw_team_spirit_hrr4.svg' %}" alt="" srcset="">
             </div>
             <div class="col-md-6 mt-4 pt-4 text-center">
 
-                <h3 class="atext">
+                <h3 class="atext" data-aos="fade-left" data-aos-duration="900" data-aos-delay="300">
                     WHILE YOU ARE FOCUSING ON BEING MORE
                     EFFICIENT IN YOUR CORE BUSINESS ACTIVITY
                     YOU CAN LEAVE THE REST TO US WE WILL
@@ -288,7 +304,8 @@
                     BUSINESS MODELS BY PROVIDING TAILOR
                     MADE DELIVERY SOLUTIONS.
                 </h3>
-                <div class="container  m-4 p-4 text-main">
+                <div class="container  m-4 p-4 text-main" data-aos="zoom-in" data-aos-duration="1000"
+                    data-aos-delay="400">
                     <h2 class="atext2">
                         OUR VERSATILE TEAM MAKES SURE THAT OUR
                         VALUED CUSTOMERS HAVE SOLUTIONS TO
@@ -298,25 +315,28 @@
         </div>
     </div>
 
-    <div id="why-us" class="why-us  my-4 pt-4" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
+    <div id="why-us" class="why-us  my-4 pt-4">
 
         <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-center" data-aos="zoom-out" data-aos-duration="800" data-aos-delay="200">
                 <img class="whyimg d-block" src="{% static 'images/undraw_decide_3iwx.svg' %}" alt="" srcset=""
                     style="display: inline-block !important;">
             </div>
-            <div class="col-md-12  text-center">
+            <div class="col-md-12  text-center" data-aos="zoom-out" data-aos-duration="800" data-aos-delay="200">
                 <h1 class="display-1 text-center heading" style="display: inline-block !important;"><u>Why Us?</u> </h1>
             </div>
             <div class="col-md-12  text-center">
                 <div class="container my-4 py-4 text-center">
 
-                    <h2 class="wtext text-main">OUR PICK UP AND DELIVERY COURIER APP MAKES YOUR LIFE EASIER; WITH A
+                    <h2 class="wtext text-main" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">OUR
+                        PICK UP AND DELIVERY COURIER APP MAKES YOUR LIFE EASIER; WITH A
                         FEW TAPS YOU CAN GET US TO RUN ERRANDS FIR YOU SO YOU’LL GET MORE
                         TIME IN YOUR DAY TO DO THE THINGS YOU ENJOY DOING. </h2>
-                    <h1>WE SELECT THE BEST OF THE BEST RIDERS ON YOUR BEHALF
+                    <h1 data-aos="fade-right" data-aos-duration="800" data-aos-delay="200">WE SELECT THE BEST OF THE
+                        BEST RIDERS ON YOUR BEHALF
                     </h1>
-                    <ul class="list-group list-group-flush mx-4 px-4 text-center text-main">
+                    <ul class="list-group list-group-flush mx-4 px-4 text-center text-main" data-aos="fade-in"
+                        data-aos-duration="900" data-aos-delay="300">
                         <li class="list-group-item">❖TRAINED DRIVERS.</li>
                         <li class="list-group-item">❖INDUSTRY EXPERIENCE.</li>
                         <li class="list-group-item">❖AWARE OF THE ROUTES AND TRAINED IN ROUTE OPTIMIZATION.</li>
@@ -329,63 +349,62 @@
 
     </div>
 
-    <div id="customers" class="customers  my-4 pt-4" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
+    <div id="customers" class="customers  mb-4" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
 
         <h1 class="display-3 text-center heading">EXITING CUSTOMERS</h1>
         <div class="container p-4 teamh">
-            <div class="row ml-4 pl-4">
-                <div class="col-md-4 my-4">
-                    <img class="img-customer1" src="{% static 'images/icons/11.png' %}" alt="" srcset="">
+            <div class="row owl-carousel owl-theme">
+                <div class="col-md-4 my-4 owl-item"">
+                    <img class=" img-customer1" src="{% static 'images/icons/11.png' %}" alt="" srcset="">
                 </div>
-                <div class="col-md-4 my-4">
-                    <img class="img-customer1" src="{% static 'images/icons/22.png' %}" alt="" srcset="">
+                <div class="col-md-4 my-4 owl-item"">
+                    <img class=" img-customer1" src="{% static 'images/icons/22.png' %}" alt="" srcset="">
                 </div>
-                <div class="col-md-4 my-4">
-                    <img class="img-customer1" src="{% static 'images/icons/33.png' %}" alt="" srcset="">
+                <div class="col-md-4 my-4 owl-item"">
+                    <img class=" img-customer1" src="{% static 'images/icons/33.png' %}" alt="" srcset="">
                 </div>
-                <div class="col-md-4 my-4">
-                    <img class="img-customer4" src="{% static 'images/icons/44.png' %}" alt="" srcset="">
+                <div class="col-md-4 my-4 owl-item"">
+                    <img class=" img-customer4" src="{% static 'images/icons/44.png' %}" alt="" srcset="">
                 </div>
-                <div class="col-md-4 my-4">
-                    <img class="img-customer4" src="{% static 'images/icons/55.jpg' %}" alt="" srcset="">
+                <div class="col-md-4 my-4 owl-item"">
+                    <img class=" img-customer4" src="{% static 'images/icons/55.jpg' %}" alt="" srcset="">
                 </div>
 
-                <div class="col-md-4 my-4">
-                    <img class="img-customer4" src="{% static 'images/icons/66.jpg' %}" alt="" srcset="">
+                <div class="col-md-4 my-4 owl-item"">
+                    <img class=" img-customer4" src="{% static 'images/icons/66.jpg' %}" alt="" srcset="">
+                </div>
+                <div class="col-md-4 my-4 owl-item"">
+                    <img class=" img-customer1" src="{% static 'images/icons/Picture1.jpg' %}" alt="" srcset="">
+                </div>
+                <div class="col-md-4 my-4 owl-item"">
+                    <img class=" img-customer4" src="{% static 'images/icons/11.jpg' %}" alt="" srcset="">
+                </div>
+                <div class="col-md-4 my-4 owl-item"">
+                    <img class=" img-customer4" src="{% static 'images/icons/10.png' %}" alt="" srcset="">
+                </div>
+                <div class="col-md-4 my-4 owl-item"">
+                    <img class=" img-customer1" src="{% static 'images/icons/99.png' %}" alt="" srcset="">
+                </div>
+                <div class="col-md-4 my-4 owl-item"">
+                    <img class=" img-customer5" src="{% static 'images/icons/88.png' %}" alt="" srcset="">
+                </div>
+                <div class="col-md-4 my-4 owl-item"">
+                    <img class=" img-customer6" src="{% static 'images/icons/77.jpg' %}" alt="" srcset="">
                 </div>
             </div>
-            <div class="row ml-4 pl-4">
 
-                <div class="col-md-4 my-4">
-                    <img class="img-customer1" src="{% static 'images/icons/Picture1.jpg' %}" alt="" srcset="">
-                </div>
-                <div class="col-md-4 my-4">
-                    <img class="img-customer4" src="{% static 'images/icons/11.jpg' %}" alt="" srcset="">
-                </div>
-                <div class="col-md-4 my-4">
-                    <img class="img-customer4" src="{% static 'images/icons/10.png' %}" alt="" srcset="">
-                </div>
-                <div class="col-md-4 my-4">
-                    <img class="img-customer1" src="{% static 'images/icons/99.png' %}" alt="" srcset="">
-                </div>
-                <div class="col-md-4 my-4">
-                    <img class="img-customer5" src="{% static 'images/icons/88.png' %}" alt="" srcset="">
-                </div>
-                <div class="col-md-4 my-4">
-                    <img class="img-customer6" src="{% static 'images/icons/77.jpg' %}" alt="" srcset="">
-                </div>
-            </div>
         </div>
     </div>
 
-    <div id="services" class="services  my-4 pt-4" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
+    <div id="services" class="services  my-4 pt-4">
 
-        <h1 class="display-1 text-center heading">Services</h1>
+        <h1 class="display-1 text-center heading" data-aos="fade-up" data-aos-duration="750" data-aos-delay="100">
+            Services</h1>
         <div class="container">
             <div class="row teamh">
                 <div class="col-md-2">
                 </div>
-                <div class="col-md-4 m-4">
+                <div class="col-md-4 m-4" data-aos="zoom-in" data-aos-duration="750" data-aos-delay="100">
                     <div class="card card-serv" style="width: 18rem;">
                         <img class="" src="{% static 'images/icons/Picture2.jpg' %}" alt="" srcset="">
                         <div class="card-body">
@@ -394,7 +413,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 m-4">
+                <div class="col-md-4 m-4" data-aos="zoom-in" data-aos-duration="750" data-aos-delay="100">
                     <div class="card card-serv" style="width: 18rem;">
                         <img class="" src="{% static 'images/icons/Picture3.jpg' %}" alt="" srcset="">
                         <div class="card-body">
@@ -408,7 +427,7 @@
 
                 <div class="col-md-2">
                 </div>
-                <div class="col-md-4 m-4">
+                <div class="col-md-4 m-4" data-aos="zoom-in" data-aos-duration="750" data-aos-delay="100">
                     <div class="card card-serv" style="width: 18rem;">
                         <img class="" src="{% static 'images/icons/Picture4.jpg' %}" alt="" srcset="">
                         <div class="card-body">
@@ -418,7 +437,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 m-4">
+                <div class="col-md-4 m-4" data-aos="zoom-in" data-aos-duration="750" data-aos-delay="100">
                     <div class="card card-serv" style="width: 18rem;">
                         <img class="" src="{% static 'images/icons/Picture5.jpg' %}" alt="" srcset="">
                         <div class="card-body">
@@ -431,31 +450,36 @@
             </div>
         </div>
     </div>
-    
 
-    <div id="team" class="team  my-4 pt-4" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
 
-        <h1 class="display-1 text-center heading teamh">ROUTE VISOR TEAM</h1>
+    <div id="team" class="team  my-4 pt-4">
+
+        <h1 class="display-1 text-center heading teamh" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
+            ROUTE VISOR TEAM</h1>
         <div class="row">
             <div class="col-md-6 mt-4 pt-4 text-right">
 
-                <div class="container text-center m-4 p-4 text-main teamh">
-                    
+                <div class="container text-center m-4 p-4 text-main teamh" data-aos="zoom-in" data-aos-duration="900"
+                    data-aos-delay="250">
+
                     <ul class="list-group list-group-flush mx-4 px-4 text-center text-main list-office">
                         <li class="list-group-item">
                             <h1>
-                            21 Office Employee
-                        </h1></li>
+                                <span class="counter">21</span> Office Employee
+                            </h1>
+                        </li>
                         <li class="list-group-item">
-                            <h1>500+ Fleet
-                        </h1></li>
+                            <h1> <span class="counter1">500</span> + Fleet
+                            </h1>
+                        </li>
                         <li class="list-group-item">
                             <h1> Updated Fleet Management System
-                        </h1></li>
+                            </h1>
+                        </li>
                     </ul>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
 
                 <img class="img-vision" src="{% static 'images/undraw_creative_team_r90h.svg' %}" alt="" srcset="">
             </div>
@@ -548,15 +572,17 @@
                 <div class="col-md-8 col-md-12 mt-5">
                     <h1>Contact Details:</h1>
                     <p style="line-height: 1.7rem">
-                       <h3 class="text-main" ><b>Address:</b></h3> 
+                        <h3 class="text-main"><b>Address:</b></h3>
                         Office 401 Arzoo Building, Al Marur
                         Al Khaleej Road
-                        Deria U.A.E.</p>
-                        <p style="line-height: 1.7rem">
-                            <h3 class="text-main" ><b>Contact Number:</b></h3>
-                            +971 58 106 2962,  
-                            +971 56 934 7025,
-                            +971 50 330 5442</p>
+                        Deria U.A.E.
+                    </p>
+                    <p style="line-height: 1.7rem">
+                        <h3 class="text-main"><b>Contact Number:</b></h3>
+                        +971 58 106 2962,
+                        +971 56 934 7025,
+                        +971 50 330 5442
+                    </p>
                 </div>
                 <!-- Grid column -->
 
@@ -617,7 +643,7 @@
     </footer>
     <!-- Footer -->
 
-    
+
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
@@ -673,12 +699,44 @@
         });
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    
-  <script src="{% static 'js/owl.carousel.min.js' %}"></script>
-    
-  <script>
-    AOS.init();
-  </script>
+
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        $(document).ready(function () {
+            var owl = $('.owl-carousel');
+            owl.owlCarousel({
+                margin: 50,
+                loop: true,
+                autoplay: true,
+                autoWidth: true,
+                autoplayTimeout: 1000,
+                center: true,
+                stagePadding: 50,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    600: {
+                        items: 3,
+                    },
+                    1000: {
+                        items: 5,
+                    }
+                }
+            });
+            $('.play').on('click', function () {
+                owl.trigger('play.owl.autoplay', [1000])
+            })
+            $('.stop').on('click', function () {
+                owl.trigger('stop.owl.autoplay')
+            })
+        });
+    </script>
 </body>
 
 </html>

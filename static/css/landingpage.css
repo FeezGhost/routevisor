@@ -1,3 +1,7 @@
+/* 
+	nav bar animation
+	owl scroll
+	*/
 html,
 body {
 	max-width: 100%;
@@ -9,6 +13,13 @@ body {
 	padding-bottom: 20rem;
 	text-shadow: 2px 2px #000000;
 }
+.img1{
+	margin-left: 6px !important;
+}
+.img2{
+	
+	margin-right: 5% !important;
+}
 
 .brand-pic{
 	width: 20%;
@@ -19,19 +30,19 @@ body {
 }
 
 .img-customer1 {
-	width: 70% !important;
+	width: 150px !important;
 }
 
 .img-customer4 {
-	width: 60% !important;
+	width: 100px !important;
 }
 
 .img-customer5 {
-	width: 55% !important;
+	width: 80px !important;
 }
 
 .img-customer6 {
-	width: 60% !important;
+	width: 100px !important;
 }
 
 .card-serv {
@@ -49,12 +60,16 @@ body {
 	margin-top: 6% !important;
 	background-color: #2f2a660a !important;
 }
-
 .about {
 	background-color: #2f2a660a !important;
 }
 
 .vision {
+	margin-top: 6% !important;
+}
+.services{
+	
+	background-color: #2f2a660a !important;
 	margin-top: 6% !important;
 }
 
@@ -274,7 +289,6 @@ i {
 	#navbarSupportedContent ul li a {
 		padding: 12px 30px;
 	}
-
 	.hori-selector {
 		margin-top: 0px;
 		margin-left: 10px;
@@ -308,11 +322,11 @@ i {
 	}
 }
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
 	.jumbotron {
-		padding-top: 19rem;
-		padding-bottom: 24rem;
-	}
+	padding-top: 62%;
+	padding-bottom: 82%;
+}
 	.mynav{
 		width: 67% !important;
 		position: fixed !important;
