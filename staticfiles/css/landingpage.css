@@ -49,8 +49,8 @@ body {
 	margin-top: 6% !important;
 	background-color: #2f2a660a !important;
 }
-
 .about {
+	margin-top: 6% !important;
 	background-color: #2f2a660a !important;
 }
 
@@ -98,14 +98,25 @@ footer a {
 }
 
 .overlay {
-	background-color: #882f2fd3;
-	opacity: 0.4;
+	background-color: #882f2fd3 !important;
+	opacity: 0.4 !important;
 	position: absolute;
 	top: 0;
 	left: 0;
 	bottom: 0;
 	right: 0;
 	z-index: -1;
+}
+
+.custom-shape-divider-bottom-1609882834 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1609882834 .shape-fill {
+    fill: #FFFFFF;
 }
 
 .custom-shape-divider-bottom-1606505643 {
@@ -323,15 +334,17 @@ i {
 		margin: 5px 5px !important;
 	}
 	.mtext{
-		font-size: 35px !important;
+		font-size: 30px !important;
 	}
 	.mtext2{
 		margin-left: 10px !important;
+		font-size: 20px !important;
 	}
 	.atext{
 		font-size: 20px !important;
 		margin: 10px 20px  !important;
 	}
+	
 	.atext2{
 		font-size: 30px !important;
 		margin-right: 40px  !important;
